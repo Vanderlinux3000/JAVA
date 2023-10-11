@@ -5,7 +5,7 @@ public class consumo_veicular{
 		int totaldeviagem;
 
 		/*Informa a quantidade de combustível no tanque*/
-		System.out.print("\n\nQuantidade de combustível: ");
+		System.out.print("\n\nQuantidade Abastecido: ");
 		combustivel = Double.parseDouble(System.console().readLine());
 
 		/*Variável de controle média para veículos com rendimento de consumo 10 km por litro rodado.*/
@@ -23,7 +23,7 @@ public class consumo_veicular{
 		while(distanciapercorrida <= combustivel){
 			
 			/*informa a distância percorrida*/
-			System.out.print("Viagem realizada: ");
+			System.out.print("Gasolina utilizada: ");
 			distancia = Double.parseDouble(System.console().readLine());
 
 			/*total de combustível restante após viajem realizada */
@@ -50,10 +50,10 @@ public class consumo_veicular{
 					System.out.printf("\nCombustível consumido %2.2f litros,finish.\n",combustivelrestante);
 					System.out.printf("Falta %2.2f litro de combustível para alcançar o destino.\n",restante);
 					System.out.printf("Consumo médio com %2.1f litros de gasolina será de %2.3f km por litro.\n",combustivel,consumomedio);
-					System.out.printf("Total de viagem: %d\n",totaldeviagem);
+					System.out.printf("Viagens com o tanque: %d\n",totaldeviagem);
 					System.out.printf("Distancia total percorrida %2.0f km.\n\n",combustivel * 10);
 			
-				/*condição em que só será possivel realizar viajem se tiver combustível*/
+				/*condição em que só será possivel realizar viagem se tiver combustível*/
 				}else if (combustivel > distanciapercorrida && distancia < combustivel){
 					/*combustível restante após distância percorrida*/
 					combustivelrestante = combustivel - distanciapercorrida;
@@ -67,7 +67,7 @@ public class consumo_veicular{
 					totaldeviagem = 0;
 					System.out.printf("total de viagem %d.\n",totaldeviagem);
 
-				/*informa total de viajens realizada com o tanque de combustível*/	
+				/*informa total de viagens realizada com o tanque de combustível*/	
 				}else if(distancia >= combustivel && distancia == 0){
 					/*Informa que o veíciulo faz 10 km por litro*/
 					kmlitro = distanciapercorrida * 10;

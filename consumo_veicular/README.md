@@ -6,7 +6,7 @@ Consumo de um veículo para informar quantidade tanque de combustível que poder
 
 IFRS (Instituto Federal do Rio Grande do Sul)
 Caderno de Exercícios - Módulo 2 - JavaII
-Crie um programa para ler a quantidade de litros de combustível e a distância percorrida por um carro em 
+5 - Crie um programa para ler a quantidade de litros de combustível e a distância percorrida por um carro em 
 várias viagens. O programa deve calcular o consumo médio do carro, que é igual a média de quilômetros por
 litro de todas as viagens. O número de viagens realizado deve ser informado pelo usuário.
 
@@ -28,5 +28,5 @@ No prompt ou bash executar "java consumo_veicular.java" sem as aspas
 Observações importantes linha 12 informar manualmente quantos km veículo fará por litro
 
 ## Contribuidores:
-Atividade enunciado abaixo solicitada em curso a distância IFRS (Instituto Federal Rio Grande do sul)
+Atividade enunciado solicitada em curso a distância IFRS (Instituto Federal Rio Grande do sul)
 
